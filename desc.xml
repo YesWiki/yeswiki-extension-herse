@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plugin name="wkherse" version="1" active="1">
+  <author>mrflos</author>
+  <label>Herse</label>
+  <desc>Permettre d'ajouter une herse avec mot de passe et identifiant unique.</desc>
+</plugin>

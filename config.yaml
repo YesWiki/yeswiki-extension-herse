@@ -1,0 +1,4 @@
+parameters:
+  herse_editable_config_params:
+    - 'herse_id'
+    - 'herse_password'
