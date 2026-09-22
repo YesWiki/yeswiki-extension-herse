@@ -1,5 +1,5 @@
 <?php
-if (!empty($wakkaConfig['herse_id']) && !empty($wakkaConfig['herse_password'])) {
+if (PHP_SAPI !== 'cli' && !empty($wakkaConfig['herse_id']) && !empty($wakkaConfig['herse_password'])) {
     if (
         !isset($_SERVER['PHP_AUTH_USER'])
         || !isset($_SERVER['PHP_AUTH_PW'])
